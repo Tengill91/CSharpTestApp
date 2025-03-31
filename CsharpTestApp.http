@@ -1,0 +1,6 @@
+@CsharpTestApp_HostAddress = http://localhost:5134
+
+GET {{CsharpTestApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
