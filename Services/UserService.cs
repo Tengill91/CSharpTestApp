@@ -30,13 +30,13 @@ public class UserService
         return UserDtoMapper.MapToUserDtos(users.ToList());
     }
 
-    public UserDto GetUser(int id) 
+    public UserDto GetUser(int id)
     {
-        var user =  _repository.GetById(id);
-        if(user == null)
+        var user = _repository.GetById(id);
+        if (user == null)
         {
             _logger.LogWarning("User with ID {UserId} not found.", id);
-            return null;
+            throw new KeyNotFoundException($"User with ID {id} not found.");
         }
         return UserDtoMapper.MapToUserDto(user);
     }
