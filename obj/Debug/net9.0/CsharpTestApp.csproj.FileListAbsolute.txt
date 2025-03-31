@@ -52,3 +52,4 @@
 /Users/johndoe/CsharpProjects/CsharpTestApp/CsharpTestApp/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/johndoe/CsharpProjects/CsharpTestApp/CsharpTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
 /Users/johndoe/CsharpProjects/CsharpTestApp/CsharpTestApp/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/johndoe/CsharpProjects/CsharpTestApp/CsharpTestApp/obj/Debug/net9.0/CsharpTestApp.sourcelink.json
